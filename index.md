@@ -10,7 +10,7 @@
     <meta name="keywords" content="Colorlib Templates">
 
     <!-- Title Page-->
-    <title>Register</title>
+    <title>Home</title>
 
     <!-- Icons font CSS-->
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -24,89 +24,53 @@
 
     <!-- Main CSS-->
     <link href="css/main.css" rel="stylesheet" media="all">
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Smart Parking system</label>
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#">My Balance</a></li>
+          <li><a href="#">Add E-Cash</a></li>
+          <li><a href="#">Logout</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
     <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
         <div class="wrapper wrapper--w680">
             <div class="card card-4">
                 <div class="card-body">
-                    <h2 class="title">Registration Form</h2>
-                    <form method="POST">
-                        <div class="row row-space">
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">first name</label>
-                                    <input class="input--style-4" type="text" name="first_name">
-                                </div>
-                            </div>
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">last name</label>
-                                    <input class="input--style-4" type="text" name="last_name">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row row-space">
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Birthday</label>
-                                    <div class="input-group-icon">
-                                        <input class="input--style-4 js-datepicker" type="text" name="birthday">
-                                        <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Vehicle Number</label>
-                                    <input class="input--style-4" type="text" name="email">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row row-space">
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Email</label>
-                                    <input class="input--style-4" type="email" name="email">
-                                </div>
-                            </div>
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Phone Number</label>
-                                    <input class="input--style-4" type="text" name="phone">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row row-space">
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Password</label>
-                                    <input class="input--style-4" type="password" name="phone">
-                                </div>
-                            </div>
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Confirm Password</label>
-                                    <input class="input--style-4" type="password" name="phone">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="input-group">
-                            <label class="label">Vehicle type</label>
-                            <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="subject">
-                                    <option disabled="disabled" selected="selected">Choose option</option>
-                                    <option>Car</option>
-                                    <option>Motor Bike</option>
-                                </select>
-                                <div class="select-dropdown"></div>
-                            </div>
-                        </div>
-                        <div class="input-group">
-                                <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button> 
-                        </div>
-                    </form>
+                    <div>
+                        <label class="label">Techpark</label>
+                        <label class="label">5:00 PM - 8:00 PM</label>
+                        <label class="label">20 Jan</label>
+                    </div>
+                </div>
+            </div><br>
+            <div class="card card-4">
+                <div class="card-body">
+                    <div>
+                        Elements Mall<br><br>
+                        6:00 PM - 7:20 PM<br><br>
+                        Wed 19 Jan
+                    </div>
+                </div>
+            </div><br>
+            <div class="card card-4">
+                <div class="card-body">
+                    <div>
+                        sanky Tank<br><br>
+                        3:25 PM - :400 PM<br><br>
+                        Sat 13 Jan
+                    </div>
                 </div>
             </div>
         </div>
