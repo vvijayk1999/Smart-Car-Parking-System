@@ -200,6 +200,10 @@ h6 {
   padding-top: 180px;
 }
 
+.p-t-215 {
+  padding-top: 215px;
+}
+
 .p-t-20 {
   padding-top: 20px;
 }
@@ -755,3 +759,29 @@ section{
   background-size: cover;
   height: calc(100vh - 80px);
 }
+
+
+/* 
+ This is my script
+*/
+
+.card-body-slots {
+  padding: 10px 10px;
+  padding-bottom: 65px;
+}
+
+.book-slots{
+  background: #fff;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+/*
+@media (max-width: 767px) {
+  .card-body-slots {
+    padding: 12px 0px;
+  }
+}
+*/
